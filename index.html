@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simon Tv</title>
+    <title>Tv Engenharia</title>
     <style>
         ::-webkit-scrollbar {
             display: none;
@@ -39,12 +39,13 @@
 <body>
     <div class="container">
         <span id="data"></span>
-        <iframe src="http://iissrvsob.sob.ad-grendene.com/simonweb/TV.aspx?tv=114" frameborder="0" id="simon"></iframe>
+        <iframe title="Painel Indicadores 2025" id="indicadores" src="https://app.powerbi.com/reportEmbed?reportId=f56beff8-4a35-46c7-b499-d19c34db110e&autoAuth=true&ctid=b7ed67af-ba40-4040-a386-ab53a0ad3e96" frameborder="0"></iframe>
+        <iframe src="https://app.powerbi.com/view?r=eyJrIjoiMTY1NTQyMjItNzU5OS00NTY5LTliOGItNTdiZDkxNTU2Njg2IiwidCI6ImI3ZWQ2N2FmLWJhNDAtNDA0MC1hMzg2LWFiNTNhMGFkM2U5NiJ9" frameborder="0" id="melhorias"></iframe>
         <iframe src="carroussel.html" frameborder="0" id="lancamentos"></iframe>
         <!-- Adicione mais elementos aqui -->
     </div>
     <script>
-        const elements = ['simon', 'lancamentos']; // Adicione mais IDs de elementos aqui
+        const elements = ['indicadores', 'melhorias', 'lancamentos']; // Adicione mais IDs de elementos aqui
         let currentIndex = 0;
 
         function scrollToElement(id) {
